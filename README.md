@@ -2,6 +2,8 @@
 ## 🌐 Socials:
 [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/rizon) 
 
+![giphy (1)](https://github.com/rahatutzaman-rizon/rahatutzaman-rizon/assets/115326466/6c0aa409-436a-485d-be63-a07a62a07f1d)
+![giphy](https://github.com/rahatutzaman-rizon/rahatutzaman-rizon/assets/115326466/d9cdfa5f-283a-4cc8-818f-cf598982ccc8)
 
  <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
