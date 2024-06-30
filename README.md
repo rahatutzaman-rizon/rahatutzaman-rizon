@@ -1,98 +1,109 @@
+<div align="center">
+  <img src="https://i.ibb.co/n7s4NcT/Beige-Minimalist-Fashion-Hijab-Facebook-Cover.png" alt="Header" width="100%">
+</div>
 
-![1](https://i.ibb.co/n7s4NcT/Beige-Minimalist-Fashion-Hijab-Facebook-Cover.png)
+<h1 align="center">
+  Welcome to Rahatutzaman Rizon's GitHub! 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
 
-
-
- <div id="header" align="center">
+<div align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=rahatutzaman-rizon&style=flat-square&color=blue" alt="Profile Views"/>
+</div>
 
+<h2 align="center">
+  🚀 Full Stack Developer | 💻 Tech Enthusiast | 🌱 Lifelong Learner
+</h2>
 
-
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/rahatutzaman.rizon/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rahatutzaman-rizon-373529172/) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat-square&logo=netlify&logoColor=#00C7B7) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat-square&logo=heroku&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=flat-square&logo=github&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=flat-square&logo=react%20query&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=flat-square&logo=reacthookform&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rahatutzaman-rizon&theme=flag-india&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=rahatutzaman-rizon&theme=flag-india&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rahatutzaman-rizon&theme=flag-india&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<div align="center">
+  <a href="https://www.facebook.com/rahatutzaman.rizon/">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
+  </a>
+  <a href="https://www.linkedin.com/in/rahatutzaman-rizon-373529172/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=rahatutzaman-rizon&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 🧰 Languages and Tools
 
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original-wordmark.svg" title="Next.js" alt="Next.js" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original-wordmark.svg" title="Heroku" alt="Heroku" width="40" height="40"/>
+</div>
 
+---
 
+### 📊 My Stats
 
-## Projects:
-## 1
-# Pet Adoption Corner
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rahatutzaman-rizon&show_icons=true&theme=radical" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahatutzaman-rizon&layout=compact&theme=vision-friendly-dark" alt="Top Languages" height="165"/>
+</div>
 
-Anyone can adopt a pet or donation pet system
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahatutzaman-rizon&theme=dark&background=000000" alt="GitHub Streak"/>
+</div>
 
+---
 
-## Live link
- https://pet-adoption-30ae0.web.app/
-## Features
+### 🏆 Projects Showcase
 
-- Anyone can adopted pet
-- People can donation their pets
-- Donation Campaign System
-- Admin based users security System
+<details>
+<summary>Pet Adoption Corner</summary>
 
+- **Description**: A platform for pet adoption and donation
+- **Live Demo**: [Pet Adoption Corner](https://pet-adoption-five.vercel.app/)
+- **Key Features**:
+  - Pet adoption system
+  - Pet donation system
+  - Donation campaign management
+  - Admin-based user security
+- **Tech Stack**: React, DaisyUI, TanStack Query, TailwindCSS, React Hook Form, Firebase, Node.js, Express
+</details>
 
-## Tech Stack
+<details>
+<summary>Boi Bazar</summary>
 
-**Client:** React, DaisyUi,Tanstack query, TailwindCSS,React-hook-form,firebase
+- **Description**: An online bookstore for purchasing books
+- **Live Demo**: [Boi Bazar](https://dainty-choux-b6b746.netlify.app/)
+- **Key Features**:
+  - Category-based book selection
+  - Submission date management
+  - User authentication system
+- **Tech Stack**: React, DaisyUI, Swiper.js, TailwindCSS, React Hook Form, Firebase, Node.js, Express
+</details>
 
-**Server:** Node, Express
+<details>
+<summary>Gadget Finder</summary>
 
-## 2
+- **Description**: A platform to explore and choose electronic gadgets
+- **Live Demo**: [Gadget Finder](https://technovative-store-c3ad5.web.app/)
+- **Key Features**:
+  - Browse electronics by brand
+  - Detailed product information
+  - Shopping cart functionality
+- **Tech Stack**: React, DaisyUI, TailwindCSS, Firebase, Node.js, Express
+</details>
 
+---
 
-# Boi Bazar
-
-Anyone can buy book 
-
-
-## Live link
-https://dainty-choux-b6b746.netlify.app/
-## Features
-
-- catagrories book selection
-- Submission Date Provide
-- Authentication  System
-
-## Tech Stack
-
-**Client:** React, DaisyUi,Swipper js TailwindCSS,React-hook-form,firebase
-
-**Server:** Node, Express
-
-
-## 3
-
-
-# Gadget Finder
- Choose ur favourite brand of Gadget
-
-
-## Live link
-https://technovative-store-c3ad5.web.app/
-## Features
-
-- Electronics brands choose
-- Get more details about those product
-- Add prodhuct Cart list
-## Tech Stack
-
-**Client:** React, DaisyUi, TailwindCSS,firebase
-
-**Server:** Node, Express
-
-
-
+<div align="center">
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
+  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee"/>
+</div>
