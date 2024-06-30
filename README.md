@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/n7s4NcT/Beige-Minimalist-Fashion-Hijab-Facebook-Cover.png" alt="Header" width="70%">
+  <img src="https://i.ibb.co/TtQBFS2/rizon.jpg" alt="Header" width="80%">
 </div>
 
 <h1 align="center">
