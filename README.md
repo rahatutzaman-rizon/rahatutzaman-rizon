@@ -53,9 +53,6 @@ const rizon = {
     currentFocus: "Building Scalable Full-Stack Applications",
     funFact: "I transform coffee into code ☕"
 };
-```
-
----
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
