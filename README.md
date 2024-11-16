@@ -126,7 +126,7 @@ const rizon = {
     <td align="center">
       <h3>Pet Adoption Corner</h3>
       <p>A comprehensive platform for pet adoption and donation management</p>
-      <a href="https://pet-adoption-five.vercel.app/">Live Demo</a> | 
+      <a href="https://pet-adoption-corner-lq7c.vercel.app/">Live Demo</a> | 
       <a href="https://github.com/rahatutzaman-rizon/pet-adoption-client">GitHub</a>
       <br>
       <b>Tech Stack:</b> React, DaisyUI, TanStack Query, TailwindCSS, Firebase
