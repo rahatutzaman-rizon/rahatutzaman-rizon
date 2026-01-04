@@ -1,305 +1,172 @@
-<!-- Header Banner -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Rahatutzaman%20Rizon&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=white"/>
-</div>
-
-<!-- Animated Introduction -->
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;I'm+Rahatutzaman+Rizon....;Full+Stack+Developer;Software+Engineer;5%2B+Years+Coding+Experience;Always+learning+new+things&center=true&size=30">
-  </a>
-</h1>
-
-<!-- Social Media Badges -->
-<div align="center">
-  <a href="mailto:rizonrahat199@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://www.linkedin.com/in/rahatutzaman-rizon-373529172/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="tel:+8801771276400">
-    <img src="https://img.shields.io/badge/Phone-4A9F45?style=for-the-badge&logo=phone&logoColor=white" />
-  </a>
-  <a href="https://github.com/rahatutzaman-rizon" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" />
-  </a>
-</div>
-
-<!-- Profile Views Counter -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rahatutzaman-rizon&style=for-the-badge&color=blue" alt="Profile Views"/>
-  <!-- Activity Widget -->
-  <img src="https://img.shields.io/github/commit-activity/m/rahatutzaman-rizon/rahatutzaman-rizon?style=for-the-badge&color=green" alt="Commit Activity"/>
-</div>
-
-<!-- Animated Wave -->
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-
-<!-- About Me Section with Animation -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
-  About Me
-</h2>
-
-```javascript
-class SoftwareEngineer {
-    constructor() {
-        this.name = "Rahatutzaman Rizon";
-        this.role = "Full Stack Developer";
-        this.location = "🌍 Badda, Dhaka, Bangladesh";
-        this.education = {
-            degree: "B.Sc. in Information and Communication Technology",
-            university: "Mawlana Bhashani Science and Technology University",
-            cgpa: "3.46/4.00"
-        };
-        this.interests = ["Web Development", "Problem Solving", "Tech Innovation"];
-        this.currentlyLearning = ["System Design", "Cloud Architecture", "DevOps"];
-    }
-
-    sayHi() {
-        console.log("Thanks for dropping by! Let's build something amazing together!");
-    }
-}
-
-const rizon = new SoftwareEngineer();
-rizon.sayHi();
-```
-
-<!-- Animated Skills Section -->
-<h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35">
-  Tech Stack
-</h2>
-
-<!-- Programming Languages -->
-<h3>
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
-  Programming Languages
-</h3>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-<!-- Frontend Development -->
-<h3>
-  <img src="https://media.giphy.com/media/WWUfbBw0OjTG8/giphy.gif" width="30">
-  Frontend Development
-</h3>
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
-
-<!-- Backend Development -->
-<h3>
-  <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="30">
-  Backend Development
-</h3>
-
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-<!-- Database & Cloud -->
-<h3>
-  <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30">
-  Database & Cloud
-</h3>
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-
-<!-- Tools & Platforms -->
-<h3>
-  <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="30">
-  Tools & Platforms
-</h3>
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
-![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
-
-<!-- Experience Timeline -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/xUPGcCh4nUHyCkyuti/giphy.gif" width="35">
-  Professional Experience
-</h2>
+<!-- ===================== HERO ===================== -->
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <h3>🏢 JMC Technology Ltd</h3>
-        <p>Junior Software Developer</p>
-        <p>July 2024 - October 2024</p>
-        <ul>
-          <li>🚀 MERN Stack Development</li>
-          <li>🔄 RESTful API Design</li>
-          <li>🎯 Project Management</li>
-        </ul>
-      </td>
-      <td>
-        <h3>💼 Business Automation Ltd</h3>
-        <p>Software Engineering Intern</p>
-        <p>February 2024 - April 2024</p>
-        <ul>
-          <li>🔧 Technical Development</li>
-          <li>📊 Process Optimization</li>
-          <li>🤝 Team Collaboration</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Rahatutzaman%20Rizon&fontSize=46&fontAlignY=35&animation=fadeIn" />
 </div>
 
-<!-- Featured Projects Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
-  Featured Projects
-</h2>
-
-<div align="center">
-  <a href="https://github.com/rahatutzaman-rizon/pet-adoption-client">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rahatutzaman-rizon&repo=pet-adoption-client&theme=radical" />
-  </a>
-  <a href="https://github.com/rahatutzaman-rizon/book-client">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rahatutzaman-rizon&repo=book-client&theme=radical" />
-  </a>
-</div>
-
-<!-- Project Cards -->
-<div align="center">
-  <details>
-    <summary><h3>🐾 Pet Corner</h3></summary>
-    <p align="center">
-      <a href="https://pet-adoption-five.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white"/>
-      </a>
-    </p>
-    <p>
-      <b>Features:</b>
-      <br/>
-      🔸 Pet Adoption System
-      <br/>
-      🔸 Fundraising Campaigns
-      <br/>
-      🔸 Donation Management
-      <br/>
-      🔸 Stripe Payment Integration
-    </p>
-    <p>
-      <b>Tech Stack:</b> React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase, Stripe
-    </p>
-  </details>
-
-  <details>
-    <summary><h3>📚 Student Project Management</h3></summary>
-    <p align="center">
-      <a href="https://dainty-choux-b6b746.netlify.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
-      </a>
-    </p>
-    <p>
-      <b>Features:</b>
-      <br/>
-      🔸 Task Management
-      <br/>
-      🔸 Progress Tracking
-      <br/>
-      🔸 Feedback System
-      <br/>
-      🔸 Team Collaboration
-    </p>
-    <p>
-      <b>Tech Stack:</b> React.js, Tailwind CSS, NodeMailer, Firebase, MongoDB, Framer Motion
-    </p>
-  </details>
-</div>
-
-<!-- GitHub Stats Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35">
-  GitHub Analytics
-</h2>
+<h2 align="center">Full Stack Developer • Software Engineer</h2>
+<p align="center">Building scalable web products with clean architecture & great UX</p>
 
 <p align="center">
-  <a href="https://github.com/rahatutzaman-rizon">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rahatutzaman-rizon&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahatutzaman-rizon&layout=compact&langs_count=8&theme=radical"/>
-  </a>
+  <a href="mailto:rizonrahat199@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-informational?style=flat&logo=gmail" /></a>
+  <a href="https://www.linkedin.com/in/rahatutzaman-rizon-373529172/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" /></a>
+  <a href="https://github.com/rahatutzaman-rizon"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github" /></a>
 </p>
-
-<!-- GitHub Contribution Graph -->
-<p align="center">
-  <a href="https://github.com/rahatutzaman-rizon">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahatutzaman-rizon&theme=radical" alt="Contribution Stats"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rahatutzaman-rizon&theme=radical&row=1&column=6" alt="GitHub Trophies"/>
-</p>
-
-<!-- Achievements Section -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/3orifgYbnsq43eFsdO/giphy.gif" width="35">
-  Achievements
-</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-        500+ Problems Solved on Coding Platforms
-      </td>
-      <td>
-        <img src="https://media.giphy.com/media/fxT7
-
-## 🔥 Real-World Production Lesson
-📅 **Date:** 2026-01-04  _(Generated: 2026-01-04 18:48 UTC)_
-🆔 **Unique ID:** `A03`
-
-### 🧠 Core Insight
-- **Category:** Database
-- **Topic:** MongoDB Indexing
-- **Concept:** Index fields used in filters + sorts
-- **Example:** Create compound index for {city, createdAt}
-- **Common Mistake:** Index everything blindly
-- **Why it matters:** Faster queries at scale
-
-### ⚡ Quick Win (Do in 5 minutes)
-- Run explain() before indexing
-
-### 🔎 Deep Dive (Level up)
-- Design indexes based on access patterns
-
-### 🎯 Interview Question
-- How do you pick compound index order?
-
-### 🛠 Command / Tool
-- `mongosh --eval "db.stats()"`
-
-### 📚 Resource
-- MongoDB docs: Indexes
-
-### 🧩 Mini Challenge
-- Add explain() notes to PR
-
-🏷 **Tags:** MongoDB,Database
 
 ---
+
+## 👋 About Me
+
+```ts
+class Engineer {
+  name = "Rahatutzaman Rizon";
+  role = "Full Stack Developer";
+  location = "Dhaka, Bangladesh";
+
+  education = {
+    degree: "B.Sc. in ICT",
+    university: "Mawlana Bhashani Science and Technology University",
+    cgpa: 3.46,
+  };
+
+  focus = [
+    "Scalable Web Apps",
+    "System Design",
+    "Clean Architecture",
+  ];
+
+  currentlyLearning = ["Cloud", "DevOps", "Distributed Systems"];
+}
+```
+
+---
+
+## 🧩 Tech Stack
+
+### Languages
+
+`JavaScript` `TypeScript` `Python` `C++`
+
+### Frontend
+
+`React` `Next.js` `Redux` `Tailwind CSS` `Material UI` `Framer Motion`
+
+### Backend
+
+`Node.js` `Express` `REST` `GraphQL`
+
+### Database & Cloud
+
+`MongoDB` `MySQL` `Firebase` `Vercel` `Netlify`
+
+### Tools
+
+`Git` `Postman` `VS Code` `Trello` `cPanel`
+
+---
+
+## 💼 Experience
+
+### **Implevista Ltd** — Software Engineer (Hotel, Visa & Flight Booking Systems)
+
+*Present*
+
+* Developing **hotel, visa, and flight booking platforms** for real-world users
+* Working on **search, booking flows, payments, and admin dashboards**
+* Integrating third-party APIs for availability, pricing, and reservations
+* Optimizing performance, reliability, and user experience
+
+### **JMC Technology Ltd** — Junior Software Developer
+
+*Jul 2024 – Oct 2024*
+
+* Built MERN-based production features
+* Designed REST APIs & optimized queries
+* Collaborated with cross-functional teams
+
+### **Business Automation Ltd** — Software Engineering Intern
+
+*Feb 2024 – Apr 2024*
+
+* Implemented internal tools & workflows
+* Improved process efficiency & stability
+
+---
+
+## 🚀 Featured Projects
+
+### 🐾 Pet Corner
+
+**Pet adoption & donation platform**
+
+* Adoption workflow & fundraising campaigns
+* Stripe payment integration
+* Role-based dashboard
+
+**Tech:** React, Tailwind, Node, Express, MongoDB, Firebase, Stripe
+🔗 Live: [https://pet-adoption-five.vercel.app/](https://pet-adoption-five.vercel.app/)
+
+---
+
+### 📚 Student Project Management
+
+**Academic collaboration & tracking system**
+
+* Task & progress tracking
+* Feedback & team collaboration
+* Smooth animations
+
+**Tech:** React, Tailwind, Firebase, MongoDB, Framer Motion
+🔗 Live: [https://dainty-choux-b6b746.netlify.app/](https://dainty-choux-b6b746.netlify.app/)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=rahatutzaman-rizon&show_icons=true&theme=radical" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahatutzaman-rizon&layout=compact&theme=radical" />
+</p>
+
+---
+
+## 🏆 Achievements
+
+* ✅ 500+ problems solved on coding platforms
+* 🚀 Multiple full‑stack production projects
+* 📈 Consistent GitHub contributions
+
+---
+
+## 🔥 Real‑World Production Lesson
+
+**ID:** A03 · **Category:** Database · **Topic:** MongoDB Indexing
+
+**Key Insight**
+Index fields used in **filters + sorts**, not everything blindly.
+
+```js
+// Example: compound index
+db.users.createIndex({ city: 1, createdAt: -1 })
+```
+
+**Why it matters**
+Proper indexing dramatically improves query performance at scale.
+
+**Quick Win**
+Run `explain()` before and after adding indexes.
+
+**Interview Tip**
+Be ready to explain compound index order based on access patterns.
+
+---
+
+## 🤝 Let’s Connect
+
+If you’re building something impactful or hiring a full‑stack engineer — let’s talk.
+
+📧 **Email:** [rizonrahat199@gmail.com](mailto:rizonrahat199@gmail.com)
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" />
+</div>
