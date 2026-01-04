@@ -1,0 +1,148 @@
+name: Daily Advanced Tech Update
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 12:00 AM Bangladesh time (UTC+6)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Restore uniqueness state (cache)
+        uses: actions/cache@v4
+        with:
+          path: .daily_state
+          key: daily-advanced-tech-state
+          restore-keys: daily-advanced-tech-state
+
+      - name: Generate rich daily tech content (unique + more info)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p .daily_state
+          STATE_FILE=".daily_state/used_ids.txt"
+          touch "$STATE_FILE"
+
+          # --- Titles (more unique) ---
+          TITLES=(
+            "🚀 Daily Advanced Tech Update"
+            "🧠 Engineering Wisdom of the Day"
+            "⚙️ Systems & Backend Deep Note"
+            "🧩 Architecture + Debugging Insight"
+            "🔥 Real-World Production Lesson"
+            "🛰️ Scaling & Performance Brief"
+            "🔐 Security + Reliability Nugget"
+            "🧪 Practical Coding Workout"
+            "📌 Senior Dev Playbook"
+            "🧭 Build Like a Pro"
+          )
+
+          # --- Content Bank (ID|Category|Topic|Concept|Example|Mistake|Why|QuickWin|DeepDive|InterviewQ|Command|Resource|Challenge|Tags) ---
+          # Add more lines anytime. Must stay unique by ID.
+          CONTENT=(
+            "A01|Backend|Express Error Handling|Use centralized error middleware instead of repeating try/catch|Wrap async routes with a helper and forward errors|Swallowing errors with empty catch blocks|Reliable APIs + faster debugging|Add one error handler + log requestId|Add structured logs + error taxonomy|How would you design an error strategy for microservices?|node -e \"console.log('Use error middleware')\"|MDN HTTP status codes|Refactor one route to async-wrapper|Node.js,Express,API"
+            "A02|Frontend|React Rendering|Use React.memo only for expensive components with stable props|Memoize a chart component that re-renders often|Memo everywhere without measuring|Better FPS + less wasted renders|Profile with React DevTools first|Use memo + useCallback + split components|When does memo make performance worse?|npx create-react-app test|React docs: Optimizing Performance|Optimize one slow component|React,Performance"
+            "A03|Database|MongoDB Indexing|Index fields used in filters + sorts|Create compound index for {city, createdAt}|Index everything blindly|Faster queries at scale|Run explain() before indexing|Design indexes based on access patterns|How do you pick compound index order?|mongosh --eval \"db.stats()\"|MongoDB docs: Indexes|Add explain() notes to PR|MongoDB,Database"
+            "A04|Security|Secrets Management|Never commit secrets; use GitHub Secrets + env vars|Use secrets for API keys in Actions|Hardcoding keys in code|Stops leaks + safer deployments|Rotate keys monthly|Use OIDC + short-lived creds|How would you rotate secrets safely?|echo \"Use GitHub Secrets\"|GitHub docs: Encrypted secrets|Remove one secret from code|Security,DevOps"
+            "A05|TypeScript|Type Safety|Prefer unknown over any for external data|Validate API response with zod|Using any hides bugs|Safer refactors + fewer runtime crashes|Replace one any with unknown|Add schema validation + narrowing|How do you safely parse unknown JSON?|node -e "echo" 2>/dev/null || true|TS handbook: Narrowing|Add runtime validation to one API|TypeScript,BestPractice"
+            "A06|DevOps|Docker Builds|Use multi-stage builds to reduce image size|Build -> copy dist into slim runtime|Shipping build tools to prod|Smaller images + faster deploy|Add a builder stage today|Pin base images + SBOM scan|How do you optimize Docker caching?|docker --version|Docker docs: Multi-stage builds|Reduce image by 30% goal|Docker,DevOps"
+            "A07|System Design|Stateless Services|Design stateless APIs for easy scaling|Store session in Redis instead of memory|In-memory sessions break scaling|Horizontal scaling becomes easy|Add requestId + idempotency key|Design idempotent endpoints + retries|What is idempotency and why matters?|curl --version|Stripe API idempotency docs|Make POST idempotent|SystemDesign,Backend"
+            "A08|API Design|HTTP Status Codes|Return correct codes (201, 204, 400, 404, 409)|Return 201 for create + Location header|Always returning 200|Clear contracts for clients|Fix one endpoint today|Add error format standard (RFC7807)|How do you version APIs cleanly?|python -V|RFC 7807 Problem Details|Update one endpoint responses|API,Backend"
+            "A09|Reliability|Retries & Timeouts|Use timeouts + exponential backoff for network calls|Retry 3 times with jitter and cap|Infinite retries causing outages|Prevents cascading failures|Add a 2s timeout everywhere|Circuit breaker + bulkheads|How do you prevent retry storms?|node -e "echo" 2>/dev/null || true|AWS Architecture: Retry patterns|Add timeout to one client|Reliability,Backend"
+            "A10|Testing|Contract Testing|Use contract tests for external APIs|Validate request/response shape in CI|Only doing unit tests|Prevents integration surprises|Add one contract test|Add consumer-driven contracts (Pact)|What’s the difference between unit/integration/contract?|npm -v|Pact docs|Write one contract test|Testing,API"
+          )
+
+          # --- Pick a unique item (no repeats until exhausted) ---
+          pick_unique() {
+            local available=()
+            for row in "${CONTENT[@]}"; do
+              local id="${row%%|*}"
+              if ! grep -qx "$id" "$STATE_FILE"; then
+                available+=("$row")
+              fi
+            done
+
+            if [ "${#available[@]}" -eq 0 ]; then
+              # reset when all used
+              : > "$STATE_FILE"
+              available=("${CONTENT[@]}")
+            fi
+
+            local idx=$((RANDOM % ${#available[@]}))
+            echo "${available[$idx]}"
+          }
+
+          ROW="$(pick_unique)"
+          ID="${ROW%%|*}"
+          echo "$ID" >> "$STATE_FILE"
+
+          IFS="|" read -r _ID CATEGORY TOPIC CONCEPT EXAMPLE MISTAKE WHY QUICKWIN DEEPDIVE INTERVIEWQ COMMAND RESOURCE CHALLENGE TAGS <<< "$ROW"
+
+          TITLE="${TITLES[$((RANDOM % ${#TITLES[@]}))]}"
+          TODAY="$(date '+%Y-%m-%d')"
+          NOW_UTC="$(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          # --- Ensure README exists ---
+          if [ ! -f README.md ]; then
+            cat > README.md <<'EOF'
+          # Daily Advanced Tech Updates
+
+          This repository auto-updates every day with a fresh engineering insight.
+
+          EOF
+          fi
+
+          # --- Append rich section ---
+          {
+            echo ""
+            echo "## ${TITLE}"
+            echo "📅 **Date:** ${TODAY}  _(Generated: ${NOW_UTC})_"
+            echo "🆔 **Unique ID:** \`${ID}\`"
+            echo ""
+            echo "### 🧠 Core Insight"
+            echo "- **Category:** ${CATEGORY}"
+            echo "- **Topic:** ${TOPIC}"
+            echo "- **Concept:** ${CONCEPT}"
+            echo "- **Example:** ${EXAMPLE}"
+            echo "- **Common Mistake:** ${MISTAKE}"
+            echo "- **Why it matters:** ${WHY}"
+            echo ""
+            echo "### ⚡ Quick Win (Do in 5 minutes)"
+            echo "- ${QUICKWIN}"
+            echo ""
+            echo "### 🔎 Deep Dive (Level up)"
+            echo "- ${DEEPDIVE}"
+            echo ""
+            echo "### 🎯 Interview Question"
+            echo "- ${INTERVIEWQ}"
+            echo ""
+            echo "### 🛠 Command / Tool"
+            echo "- \`${COMMAND}\`"
+            echo ""
+            echo "### 📚 Resource"
+            echo "- ${RESOURCE}"
+            echo ""
+            echo "### 🧩 Mini Challenge"
+            echo "- ${CHALLENGE}"
+            echo ""
+            echo "🏷 **Tags:** ${TAGS}"
+            echo ""
+            echo "---"
+          } >> README.md
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md .daily_state/used_ids.txt
+          git commit -m "Daily advanced tech update" || echo "No changes"
+          git push
