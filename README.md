@@ -269,3 +269,37 @@ rizon.sayHi();
       </td>
       <td>
         <img src="https://media.giphy.com/media/fxT7
+
+## 🔥 Real-World Production Lesson
+📅 **Date:** 2026-01-04  _(Generated: 2026-01-04 18:48 UTC)_
+🆔 **Unique ID:** `A03`
+
+### 🧠 Core Insight
+- **Category:** Database
+- **Topic:** MongoDB Indexing
+- **Concept:** Index fields used in filters + sorts
+- **Example:** Create compound index for {city, createdAt}
+- **Common Mistake:** Index everything blindly
+- **Why it matters:** Faster queries at scale
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Run explain() before indexing
+
+### 🔎 Deep Dive (Level up)
+- Design indexes based on access patterns
+
+### 🎯 Interview Question
+- How do you pick compound index order?
+
+### 🛠 Command / Tool
+- `mongosh --eval "db.stats()"`
+
+### 📚 Resource
+- MongoDB docs: Indexes
+
+### 🧩 Mini Challenge
+- Add explain() notes to PR
+
+🏷 **Tags:** MongoDB,Database
+
+---
