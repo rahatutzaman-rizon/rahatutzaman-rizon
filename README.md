@@ -476,3 +476,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** AWS Architecture: Retry patterns|Add timeout to one client|Reliability,Backend
 
 ---
+
+## 🧩 Architecture + Debugging Insight
+📅 **Date:** 2026-01-14  _(Generated: 2026-01-14 18:18 UTC)_
+🆔 **Unique ID:** `A05`
+
+### 🧠 Core Insight
+- **Category:** TypeScript
+- **Topic:** Type Safety
+- **Concept:** Prefer unknown over any for external data
+- **Example:** Validate API response with zod
+- **Common Mistake:** Using any hides bugs
+- **Why it matters:** Safer refactors + fewer runtime crashes
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Replace one any with unknown
+
+### 🔎 Deep Dive (Level up)
+- Add schema validation + narrowing
+
+### 🎯 Interview Question
+- How do you safely parse unknown JSON?
+
+### 🛠 Command / Tool
+- `node -e echo 2>/dev/null `
+
+### 📚 Resource
+- 
+
+### 🧩 Mini Challenge
+-  true
+
+🏷 **Tags:** TS handbook: Narrowing|Add runtime validation to one API|TypeScript,BestPractice
+
+---
