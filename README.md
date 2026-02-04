@@ -1190,3 +1190,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** Node.js,Express,API
 
 ---
+
+## 🛰️ Scaling & Performance Brief
+📅 **Date:** 2026-02-04  _(Generated: 2026-02-04 18:33 UTC)_
+🆔 **Unique ID:** `A02`
+
+### 🧠 Core Insight
+- **Category:** Frontend
+- **Topic:** React Rendering
+- **Concept:** Use React.memo only for expensive components with stable props
+- **Example:** Memoize a chart component that re-renders often
+- **Common Mistake:** Memo everywhere without measuring
+- **Why it matters:** Better FPS + less wasted renders
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Profile with React DevTools first
+
+### 🔎 Deep Dive (Level up)
+- Use memo + useCallback + split components
+
+### 🎯 Interview Question
+- When does memo make performance worse?
+
+### 🛠 Command / Tool
+- `npx create-react-app test`
+
+### 📚 Resource
+- React docs: Optimizing Performance
+
+### 🧩 Mini Challenge
+- Optimize one slow component
+
+🏷 **Tags:** React,Performance
+
+---
