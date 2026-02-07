@@ -1292,3 +1292,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** API,Backend
 
 ---
+
+## 🧪 Practical Coding Workout
+📅 **Date:** 2026-02-07  _(Generated: 2026-02-07 18:19 UTC)_
+🆔 **Unique ID:** `A06`
+
+### 🧠 Core Insight
+- **Category:** DevOps
+- **Topic:** Docker Builds
+- **Concept:** Use multi-stage builds to reduce image size
+- **Example:** Build -> copy dist into slim runtime
+- **Common Mistake:** Shipping build tools to prod
+- **Why it matters:** Smaller images + faster deploy
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add a builder stage today
+
+### 🔎 Deep Dive (Level up)
+- Pin base images + SBOM scan
+
+### 🎯 Interview Question
+- How do you optimize Docker caching?
+
+### 🛠 Command / Tool
+- `docker --version`
+
+### 📚 Resource
+- Docker docs: Multi-stage builds
+
+### 🧩 Mini Challenge
+- Reduce image by 30% goal
+
+🏷 **Tags:** Docker,DevOps
+
+---
