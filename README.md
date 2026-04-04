@@ -3196,3 +3196,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** SystemDesign,Backend
 
 ---
+
+## 🚀 Daily Advanced Tech Update
+📅 **Date:** 2026-04-04  _(Generated: 2026-04-04 18:25 UTC)_
+🆔 **Unique ID:** `A09`
+
+### 🧠 Core Insight
+- **Category:** Reliability
+- **Topic:** Retries & Timeouts
+- **Concept:** Use timeouts + exponential backoff for network calls
+- **Example:** Retry 3 times with jitter and cap
+- **Common Mistake:** Infinite retries causing outages
+- **Why it matters:** Prevents cascading failures
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add a 2s timeout everywhere
+
+### 🔎 Deep Dive (Level up)
+- Circuit breaker + bulkheads
+
+### 🎯 Interview Question
+- How do you prevent retry storms?
+
+### 🛠 Command / Tool
+- `node -e echo 2>/dev/null `
+
+### 📚 Resource
+- 
+
+### 🧩 Mini Challenge
+-  true
+
+🏷 **Tags:** AWS Architecture: Retry patterns|Add timeout to one client|Reliability,Backend
+
+---
