@@ -3468,3 +3468,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** AWS Architecture: Retry patterns|Add timeout to one client|Reliability,Backend
 
 ---
+
+## 📌 Senior Dev Playbook
+📅 **Date:** 2026-04-12  _(Generated: 2026-04-12 18:30 UTC)_
+🆔 **Unique ID:** `A08`
+
+### 🧠 Core Insight
+- **Category:** API Design
+- **Topic:** HTTP Status Codes
+- **Concept:** Return correct codes (201, 204, 400, 404, 409)
+- **Example:** Return 201 for create + Location header
+- **Common Mistake:** Always returning 200
+- **Why it matters:** Clear contracts for clients
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Fix one endpoint today
+
+### 🔎 Deep Dive (Level up)
+- Add error format standard (RFC7807)
+
+### 🎯 Interview Question
+- How do you version APIs cleanly?
+
+### 🛠 Command / Tool
+- `python -V`
+
+### 📚 Resource
+- RFC 7807 Problem Details
+
+### 🧩 Mini Challenge
+- Update one endpoint responses
+
+🏷 **Tags:** API,Backend
+
+---
