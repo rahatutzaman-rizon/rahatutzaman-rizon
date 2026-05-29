@@ -5066,3 +5066,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** Docker,DevOps
 
 ---
+
+## 🔐 Security + Reliability Nugget
+📅 **Date:** 2026-05-29  _(Generated: 2026-05-29 20:05 UTC)_
+🆔 **Unique ID:** `A07`
+
+### 🧠 Core Insight
+- **Category:** System Design
+- **Topic:** Stateless Services
+- **Concept:** Design stateless APIs for easy scaling
+- **Example:** Store session in Redis instead of memory
+- **Common Mistake:** In-memory sessions break scaling
+- **Why it matters:** Horizontal scaling becomes easy
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add requestId + idempotency key
+
+### 🔎 Deep Dive (Level up)
+- Design idempotent endpoints + retries
+
+### 🎯 Interview Question
+- What is idempotency and why matters?
+
+### 🛠 Command / Tool
+- `curl --version`
+
+### 📚 Resource
+- Stripe API idempotency docs
+
+### 🧩 Mini Challenge
+- Make POST idempotent
+
+🏷 **Tags:** SystemDesign,Backend
+
+---
