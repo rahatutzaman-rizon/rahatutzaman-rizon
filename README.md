@@ -6528,3 +6528,37 @@ If you’re building something impactful or hiring a full‑stack engineer — l
 🏷 **Tags:** Testing,API
 
 ---
+
+## 🧠 Engineering Wisdom of the Day
+📅 **Date:** 2026-07-11  _(Generated: 2026-07-11 18:42 UTC)_
+🆔 **Unique ID:** `A04`
+
+### 🧠 Core Insight
+- **Category:** Security
+- **Topic:** Secrets Management
+- **Concept:** Never commit secrets; use GitHub Secrets + env vars
+- **Example:** Use secrets for API keys in Actions
+- **Common Mistake:** Hardcoding keys in code
+- **Why it matters:** Stops leaks + safer deployments
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Rotate keys monthly
+
+### 🔎 Deep Dive (Level up)
+- Use OIDC + short-lived creds
+
+### 🎯 Interview Question
+- How would you rotate secrets safely?
+
+### 🛠 Command / Tool
+- `echo "Use GitHub Secrets"`
+
+### 📚 Resource
+- GitHub docs: Encrypted secrets
+
+### 🧩 Mini Challenge
+- Remove one secret from code
+
+🏷 **Tags:** Security,DevOps
+
+---
