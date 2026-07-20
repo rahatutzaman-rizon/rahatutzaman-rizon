@@ -1,6 +1,6 @@
 # Hi, I'm Rahatutzaman Rizon 👋
 
-### Full Stack & Mobile Software Engineer
+### Full Stack Web & Apps Software Engineer
 
 I build reliable web and mobile products for real business operations—from responsive interfaces and APIs to databases, cloud deployment, and automation.
 
