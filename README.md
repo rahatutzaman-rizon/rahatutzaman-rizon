@@ -379,3 +379,37 @@ I enjoy collaborating on ambitious **full-stack, mobile, SaaS, ERP, cloud, trave
 🏷 **Tags:** Node.js,Express,API
 
 ---
+
+## 🧩 Architecture + Debugging Insight
+📅 **Date:** 2026-07-22  _(Generated: 2026-07-22 18:54 UTC)_
+🆔 **Unique ID:** `A08`
+
+### 🧠 Core Insight
+- **Category:** API Design
+- **Topic:** HTTP Status Codes
+- **Concept:** Return correct codes (201, 204, 400, 404, 409)
+- **Example:** Return 201 for create + Location header
+- **Common Mistake:** Always returning 200
+- **Why it matters:** Clear contracts for clients
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Fix one endpoint today
+
+### 🔎 Deep Dive (Level up)
+- Add error format standard (RFC7807)
+
+### 🎯 Interview Question
+- How do you version APIs cleanly?
+
+### 🛠 Command / Tool
+- `python -V`
+
+### 📚 Resource
+- RFC 7807 Problem Details
+
+### 🧩 Mini Challenge
+- Update one endpoint responses
+
+🏷 **Tags:** API,Backend
+
+---
