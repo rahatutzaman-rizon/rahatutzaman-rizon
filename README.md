@@ -515,3 +515,37 @@ I enjoy collaborating on ambitious **full-stack, mobile, SaaS, ERP, cloud, trave
 🏷 **Tags:** API,Backend
 
 ---
+
+## 🔥 Real-World Production Lesson
+📅 **Date:** 2026-07-26  _(Generated: 2026-07-26 18:53 UTC)_
+🆔 **Unique ID:** `A07`
+
+### 🧠 Core Insight
+- **Category:** System Design
+- **Topic:** Stateless Services
+- **Concept:** Design stateless APIs for easy scaling
+- **Example:** Store session in Redis instead of memory
+- **Common Mistake:** In-memory sessions break scaling
+- **Why it matters:** Horizontal scaling becomes easy
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add requestId + idempotency key
+
+### 🔎 Deep Dive (Level up)
+- Design idempotent endpoints + retries
+
+### 🎯 Interview Question
+- What is idempotency and why matters?
+
+### 🛠 Command / Tool
+- `curl --version`
+
+### 📚 Resource
+- Stripe API idempotency docs
+
+### 🧩 Mini Challenge
+- Make POST idempotent
+
+🏷 **Tags:** SystemDesign,Backend
+
+---
