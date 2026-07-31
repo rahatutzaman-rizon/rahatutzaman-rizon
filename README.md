@@ -685,3 +685,37 @@ I enjoy collaborating on ambitious **full-stack, mobile, SaaS, ERP, cloud, trave
 🏷 **Tags:** Docker,DevOps
 
 ---
+
+## 🔐 Security + Reliability Nugget
+📅 **Date:** 2026-07-31  _(Generated: 2026-07-31 19:04 UTC)_
+🆔 **Unique ID:** `A10`
+
+### 🧠 Core Insight
+- **Category:** Testing
+- **Topic:** Contract Testing
+- **Concept:** Use contract tests for external APIs
+- **Example:** Validate request/response shape in CI
+- **Common Mistake:** Only doing unit tests
+- **Why it matters:** Prevents integration surprises
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add one contract test
+
+### 🔎 Deep Dive (Level up)
+- Add consumer-driven contracts (Pact)
+
+### 🎯 Interview Question
+- What’s the difference between unit/integration/contract?
+
+### 🛠 Command / Tool
+- `npm -v`
+
+### 📚 Resource
+- Pact docs
+
+### 🧩 Mini Challenge
+- Write one contract test
+
+🏷 **Tags:** Testing,API
+
+---
