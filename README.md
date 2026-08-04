@@ -821,3 +821,37 @@ I enjoy collaborating on ambitious **full-stack, mobile, SaaS, ERP, cloud, trave
 🏷 **Tags:** Node.js,Express,API
 
 ---
+
+## 📌 Senior Dev Playbook
+📅 **Date:** 2026-08-04  _(Generated: 2026-08-04 19:16 UTC)_
+🆔 **Unique ID:** `A04`
+
+### 🧠 Core Insight
+- **Category:** Security
+- **Topic:** Secrets Management
+- **Concept:** Never commit secrets; use GitHub Secrets + env vars
+- **Example:** Use secrets for API keys in Actions
+- **Common Mistake:** Hardcoding keys in code
+- **Why it matters:** Stops leaks + safer deployments
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Rotate keys monthly
+
+### 🔎 Deep Dive (Level up)
+- Use OIDC + short-lived creds
+
+### 🎯 Interview Question
+- How would you rotate secrets safely?
+
+### 🛠 Command / Tool
+- `echo "Use GitHub Secrets"`
+
+### 📚 Resource
+- GitHub docs: Encrypted secrets
+
+### 🧩 Mini Challenge
+- Remove one secret from code
+
+🏷 **Tags:** Security,DevOps
+
+---
