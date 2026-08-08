@@ -957,3 +957,37 @@ I enjoy collaborating on ambitious **full-stack, mobile, SaaS, ERP, cloud, trave
 🏷 **Tags:** Docker,DevOps
 
 ---
+
+## 🧪 Practical Coding Workout
+📅 **Date:** 2026-08-08  _(Generated: 2026-08-08 18:20 UTC)_
+🆔 **Unique ID:** `A09`
+
+### 🧠 Core Insight
+- **Category:** Reliability
+- **Topic:** Retries & Timeouts
+- **Concept:** Use timeouts + exponential backoff for network calls
+- **Example:** Retry 3 times with jitter and cap
+- **Common Mistake:** Infinite retries causing outages
+- **Why it matters:** Prevents cascading failures
+
+### ⚡ Quick Win (Do in 5 minutes)
+- Add a 2s timeout everywhere
+
+### 🔎 Deep Dive (Level up)
+- Circuit breaker + bulkheads
+
+### 🎯 Interview Question
+- How do you prevent retry storms?
+
+### 🛠 Command / Tool
+- `node -e echo 2>/dev/null `
+
+### 📚 Resource
+- 
+
+### 🧩 Mini Challenge
+-  true
+
+🏷 **Tags:** AWS Architecture: Retry patterns|Add timeout to one client|Reliability,Backend
+
+---
